@@ -1,53 +1,4 @@
-/* =====================================
-Template Name: 	Mediplus.
-Author Name: Naimur Rahman
-Website: http://wpthemesgrid.com/
-Description: Mediplus - Doctor HTML Template.
-Version:	1.1
-========================================*/   
-/*======================================
-[ CSS Table of contents ]
-* Global CSS
-* Header CSS
-	+ Topbar
-	+ Logo
-	+ Widget
-	+ Main Menu
-	+ Search
-* Hero Slider CSS
-* Schedule CSS
-* Feautes CSS
-* Fun Facts CSS
-* Why Choose CSS
-* Call to Action CSS
-* Portfolio CSS
-	+ Portfolio Single CSS
-* Services CSS
-* Testimonials CSS
-* Departments CSS
-* Pricing Table CSS
-* Clients CSS
-* Team CSS
-	+ Single Team
-* Blog CSS
-	+ Latest Blog CSS
-	+ Blog Single CSS
-	+ Blog Sidebar CSS
-* Appointment CSS
-* Login CSS
-* Register CSS
-* Faq CSS
-* Contact Us CSS
-* Error 404 CSS
-* Mail Success CSS
-* Newsletter CSS
-* Doctor Calendar CSS
-* About Us CSS
-* Footer CSS
-========================================*/ 
-/*=============================
-	Global CSS 
-===============================*/
+
 body{
     font-family: 'Poppins', sans-serif;
 	font-weight: 400;
@@ -3978,7 +3929,7 @@ body{
 /*=========================
 	Start Footer CSS
 ===========================*/
-.footer{
+/* .footer{
 	position:relative;
 }
 .footer .footer-top{
@@ -4181,7 +4132,53 @@ body{
 	text-decoration:underline;
 	display:inline-block;
 	margin-left:4px;
+} */
+.container1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+	background-color: #3787d6;
 }
-/*=========================
-	End Footer CSS
-===========================*/
+
+#abc{
+	font-size: 20px;
+	color: #121521;
+}
+
+.developer {
+    margin: 20px;
+    text-align: center;
+}
+
+.developer img {
+    width: 200px;
+    height: auto;
+    border-radius: 50%;
+}
+
+.developer .info {
+    margin-top: 10px;
+}
+
+.developer h2 {
+    margin: 5px 0;
+}
+
+.developer p {
+    margin: 5px 0;
+	color: #121521;
+}
+
+.developer a img {
+    width: 30px;
+    height: auto;
+    margin-top: 10px;
+}
+
+.icofont-linkedin {
+    color: #572ce5; /* Black color */
+    background-color: rgb(255, 255, 255);
+    border-radius: 2px;
+	font-size: 20px;
+}
+
