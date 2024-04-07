@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<!-- Created By CodingLab - www.codinglabweb.com -->
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="UTF-8">
+  <title>FIR Registration | CodingLab</title>
+  <link rel="stylesheet" href="registration.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+<div class="container">
+  <div class="title">FIR Registration</div>
+  <div class="content">
+    <form action="#" enctype="multipart/form-data">
+      <div class="user-details">
+        <div class="input-box">
+          <span class="details">Full Name</span>
+          <input type="text" placeholder="Enter your full name" required>
+        </div>
+        <div class="input-box">
+          <span class="details">Father's Name</span>
+          <input type="text" placeholder="Enter father's name" required>
+        </div>
+        <div class="input-box">
+          <span class="details">Mother's Name</span>
+          <input type="text" placeholder="Enter mother's name" required>
+        </div>
+        <div class="input-box">
+          <span class="details">Address</span>
+          <input type="text" placeholder="Enter your address" required>
+        </div>
+        <div class="input-box">
+          <span class="details">Pin Code</span>
+          <input type="text" placeholder="Enter pin code" required>
+        </div>
+        <div class="input-box">
+          <span class="details">Date of Incident</span>
+          <input type="date" required>
+        </div>
+        <div class="input-box">
+          <span class="details">Time of Incident</span>
+          <input type="time" required>
+        </div>
+        <div class="input-box">
+          <span class="details">Description of Incident</span>
+          <textarea placeholder="Describe the incident" required></textarea>
+        </div>
+        <div class="input-box">
+          <span class="details">Witness Name (if any)</span>
+          <input type="text" placeholder="Enter witness name">
+        </div>
+        <div class="input-box">
+          <span class="details">Upload Evidence Image</span>
+          <input type="file" accept="image/*" required>
+        </div>
+      </div>
+      <div class="button">
+        <input type="submit" value="Submit FIR" id="submitBtn">
+    </div>
+    </form>
+  </div>
+</div>
+<script>
+    document.getElementById("submitBtn").addEventListener("click", function() {
+        // After clicking submit, add href to index.html
+        event.preventDefault();
+
+    // Display the alert
+    alert("Case registered successfully!");
+
+    // Redirect to the main HTML file
+    window.location.href = "index.html";
+    });
+</script>
+</body>
+</html>
